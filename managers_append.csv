@@ -1,0 +1,11 @@
+﻿employee_id,performance_group,yrs_employed,manager_hire,test_score,group_size,concern_flag,mobile_flag,customers,high_hours_flag,transfers,reduced_schedule,city
+new001,Bottom,9.5,Y,299,24,N,N,17,N,5,Y,Chicago
+new002,Top,7.4,N,252,19,Y,N,16,N,5,Y,Miami
+new003,Top,4,N,277,14,Y,N,14,N,1,Y,Miami
+new004,Top,7.7,N,226,16,Y,Y,24,Y,3,N,New York
+new005,Bottom,14,Y,247,12,Y,N,35,N,1,N,San Francisco
+new006,Middle,6.2,N,219,24,N,Y,38,Y,3,N,Miami
+new007,Middle,5.9,Y,281,9,Y,Y,30,Y,1,Y,New York
+new008,Middle,13.2,Y,284,20,Y,N,17,N,0,N,Orlando
+new009,Bottom,11.4,Y,244,15,Y,Y,10,N,1,Y,San Francisco
+new010,Top,4.6,N,215,17,Y,Y,14,N,3,Y,Orlando
