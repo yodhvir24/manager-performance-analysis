@@ -65,6 +65,43 @@ performance, workload efficiency, and concern flag status
   performance to prevent leadership burnout
 
 
+## How to Run the Analysis
+
+### Steps
+
+**1. Clone or download this repository**
+- Click the green **Code** button on this page
+- Select **Download ZIP** and extract to your computer
+- Or clone using: `git clone https://github.com/yodhvir24/manager-performance-analysis`
+
+**2. Open RStudio and set your working directory**
+- Go to **Session → Set Working Directory → Choose Directory**
+- Navigate to the `data/` folder inside the project folder
+- Click **Open**
+
+**3. Load the three required datasets**
+Run these lines at the top of your RStudio session before
+running the main script:
+
+```r
+managers        <- read.csv("managers.csv")
+managers_append <- read.csv("managers_append.csv")
+manager_bonus_1 <- read.csv("manager_bonus-1.csv")
+```
+
+**4. Open and run the main script**
+- Open `r_script/manager_analysis.R` in RStudio
+- Click **Source** to run the entire script top to bottom
+- Or use **Ctrl + Enter** to run line by line
+
+### Expected Outputs
+Running the full script will produce:
+- Printed summary statistics in the RStudio console
+- 10 visualizations in the RStudio Plots panel
+- One exported CSV file: `high_demand_managers.csv`
+  saved to your working directory
+
+
 ## Repository Structure
 manager-performance-analysis/
 ├── r_script/         → Full annotated R analysis script
